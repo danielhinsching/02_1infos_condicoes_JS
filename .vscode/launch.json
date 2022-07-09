@@ -1,0 +1,14 @@
+{
+  // Use o IntelliSense para saber mais sobre os atributos possíveis.
+  // Focalizar para exibir as descrições dos atributos existentes.
+  // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Open 02_ordemDecrescente.html",
+      "file": "/media/aluno/5A76-037C/sabadoLetivo/02_1infos_condicoes_JS/02_ordemDecrescente.html"
+    }
+  ]
+}
