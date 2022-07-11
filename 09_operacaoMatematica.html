@@ -8,12 +8,29 @@
     */
 
     //ENTRADA
-
-
+    const a = Number(prompt("informe um número"));
+    const b = Number(prompt("informe um segundo numero"));
+    const operação = prompt("informe a operaçao(Soma, Subtração, multiplicaçao ou divisão")
+ 
     //PROCESSAMENTO
+    let calculo
+if (operação === "Soma" || operação === "soma")
+calculo = (a + b)
+if (operação === "Subtração" || operação === "subtração")
+calculo = (a - b)
+if (operação === "Multiplicação" || operação === "multiplicação")
+calculo = (a * b)  
+if (operação === "Divisão" || operação === "divisao")
+calculo = (a / b)   
+if (calculo % 2 === 0 ) document.write(" par ,")
+else document.write(" ímpar ,")   
+if (calculo > 0) document.write(" positivo ,")
+else document.write(" negativo ,")
+if (calculo % 1 === 0 ) document.write(" inteiro ,")
+else document.write(" decimal ,")
+document.write( calculo )
+//SAÍDA
 
-    
-    //SAÍDA
 
 
 </script>
